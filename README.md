@@ -19,6 +19,7 @@ See `src/config.py` for parameter details.
 
 - Single-processing version:
 ```shell
+cd $PJ_HOME/src/config.py
 python3 counterfactual_rewrite.py \
   --data_path $PJ_HOME/data/TimeTravel/test_data.json \
   --output_file PATH_TO_RESULTS.txt \

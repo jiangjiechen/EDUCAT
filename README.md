@@ -1,6 +1,6 @@
 # EDUCAT
 
-Code for our AAAI 2022 paper (pre-print): "[Unsupervised Editing for Counterfactual Stories](https://arxiv.org/abs/2112.05417)".
+Code for our AAAI 2022 paper: "[Unsupervised Editing for Counterfactual Stories](https://ojs.aaai.org/index.php/AAAI/article/view/21290)".
 
 ## Dependencies
 
@@ -71,4 +71,19 @@ python3 metrics.py \
 
 ## Citation
 
-If you find our work useful to yours, please kindly cite our paper (pre-print). Formal bibtex will be available after AAAI 2022.
+If you find our work useful to yours, please kindly cite our paper.
+```latex
+@article{Chen_Gan_Cheng_Zhou_Xiao_Li_2022, 
+  title={Unsupervised Editing for Counterfactual Stories}, 
+  volume={36}, 
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/21290}, 
+  DOI={10.1609/aaai.v36i10.21290}, 
+  abstractNote={Creating what-if stories requires reasoning about prior statements and possible outcomes of the changed conditions. One can easily generate coherent endings under new conditions, but it would be challenging for current systems to do it with minimal changes to the original story. Therefore, one major challenge is the trade-off between generating a logical story and rewriting with minimal-edits. In this paper, we propose EDUCAT, an editing-based unsupervised approach for counterfactual story rewriting. EDUCAT includes a target position detection strategy based on estimating causal effects of the what-if conditions, which keeps the causal invariant parts of the story. EDUCAT then generates the stories under fluency, coherence and minimal-edits constraints. We also propose a new metric to alleviate the shortcomings of current automatic metrics and better evaluate the trade-off. We evaluate EDUCAT on a public counterfactual story rewriting benchmark. Experiments show that EDUCAT achieves the best trade-off over unsupervised SOTA methods according to both automatic and human evaluation. The resources of EDUCAT are available at: https://github.com/jiangjiechen/EDUCAT.}, 
+  number={10}, 
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+  author={Chen, Jiangjie and Gan, Chun and Cheng, Sijie and Zhou, Hao and Xiao, Yanghua and Li, Lei}, 
+  year={2022}, 
+  month={Jun.}, 
+  pages={10473-10481} 
+}
+```
